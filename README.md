@@ -13,8 +13,8 @@ To win Connect Four you must be the first player to get four of your colors in a
 * Google Fonts 
 * HTML
 * CSS
-* Java Script
-* General Assembly: WDI-CC-6 Repository
+* JavaScript
+
 
 ### Getting Started
 
@@ -22,3 +22,6 @@ To win Connect Four you must be the first player to get four of your colors in a
 
 ### Next Steps
 Whenever someone clicks the "Let's Party" button, I would like to add an audio clip that plays the lyric "Oh, Im having so much fun!" from Aqua's Barbie Girl.
+
+#### Sprecial Thanks
+General Assembly: WDI-CC-6 Repository
