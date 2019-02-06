@@ -36,38 +36,23 @@ const winningCombos = [
 
 ]
 
-
-
 // /*----- app's state (variables) -----*/ 
-
-
-
-
 
 let turn, winner
 
 // /*----- cached element references -----*/ 
 
-
-
-
 var p1Moves = [];
 var p2Moves = [];
-
 const replayBtn = document.getElementById('replay');
 var msgEl = document.querySelector('h4');
-
 var cells = document.querySelectorAll('td');
 
 // /*----- event listeners -----*/ 
 
-
-
-
-
-
 document.querySelector('table').addEventListener('click', handleMove);
 replayBtn.addEventListener('click', init);
+
 // /*----- functions -----*/
 
 init();
@@ -104,9 +89,7 @@ function getWinner() {
         if (p2Moves.includes(winningCombos[i][0]) && p2Moves.includes(winningCombos[i][1]) && p2Moves.includes(winningCombos[i][2]) && p2Moves.includes(winningCombos[i][3])) {
             msgEl.textContent = `Player Two Wins!`;
         }
-
     }
-
 }
 
 
