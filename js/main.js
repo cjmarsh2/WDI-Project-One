@@ -68,7 +68,7 @@ function handleMove(evt) {
                 var numMove = parseInt((move.id));
                 p1Moves.push(numMove);
             } else if (i === -1) {
-                var numMove = parseInt((move.id));
+                numMove = parseInt((move.id));
                 p2Moves.push(numMove);
             }
             turn *= -1;
